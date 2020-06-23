@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.last{
+  text-align: center;
+  letter-spacing: 10px;
+  color: white;
+  font-size: 30px;
+}
 
 body {
   background: #fff;
@@ -669,7 +675,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -700,10 +706,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-col .img {
   position: relative;
+
 }
 
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
+ 
+
 }
 
 #about .about-col .icon {
@@ -1059,6 +1068,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 18px;
   padding-bottom: 0;
 }
+
 
 #portfolio .portfolio-item .portfolio-info h4 a {
   color: #333;
@@ -1530,6 +1540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  margin-right: 30px;
 }
 
 #footer .credits {
